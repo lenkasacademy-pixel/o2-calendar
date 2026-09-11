@@ -9,7 +9,7 @@ Single self-contained `index.html`. Data lives in three arrays near the bottom:
 - `POSTED` — what is already on the grid. Read from the **public** profile on
   11 Sep 2026. The logged-out view caps at 12 posts and exposes only date and
   media type, so there are **no captions, likes or view counts** here.
-- `PLAN` — `[date, pillar, format, title, brief, cta]`, 20 posts to 12 Oct.
+- `PLAN` — `[date, pillar, format, title, brief, cta]`, 20 posts to 9 Oct.
 - `PILLARS` — the five content themes and their colours.
 
 `TODAY` drives the highlighted cell; move it on each refresh.
