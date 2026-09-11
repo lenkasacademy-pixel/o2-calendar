@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>O2 Health Hub · Content Calendar</title>
+<!-- Planning doc. Posted history read from instagram.com/o2health_hub on 11 Sep 2026 (logged-out view, capped at 12 posts). -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+:root{
+  color-scheme: light;
+  --plane:#eef2f4; --surface:#ffffff; --surface-2:#f5f9fb; --sunk:#e7eef1;
+  --ink:#0b1519; --ink-2:#4a5a61; --ink-3:#84939a;
+  --hair:#dbe4e8; --rule:#c1ced4;
+  --brand:#0a4453; --brand-ink:#ffffff; --brand-soft:#e0edf1;
+  --accent:#0d8098;
+  --warn:#8a5b00; --warn-bg:#f7ecd6;
+  --shadow:0 1px 2px rgba(11,21,25,.05), 0 10px 30px -22px rgba(11,21,25,.5);
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  color-scheme: dark;
+  --plane:#070b0d; --surface:#101719; --surface-2:#151d20; --sunk:#0c1214;
+  --ink:#edf3f5; --ink-2:#9fadb3; --ink-3:#738187;
+  --hair:#1e2629; --rule:#30383c;
+  --brand:#6fd8ee; --brand-ink:#05161b; --brand-soft:#122328;
+  --accent:#4cc6e0;
+  --warn:#e0ab48; --warn-bg:#2a2213;
+  --shadow:0 1px 2px rgba(0,0,0,.5), 0 10px 30px -22px rgba(0,0,0,1);
+}}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --plane:#070b0d; --surface:#101719; --surface-2:#151d20; --sunk:#0c1214;
+  --ink:#edf3f5; --ink-2:#9fadb3; --ink-3:#738187;
+  --hair:#1e2629; --rule:#30383c;
+  --brand:#6fd8ee; --brand-ink:#05161b; --brand-soft:#122328;
+  --accent:#4cc6e0;
+  --warn:#e0ab48; --warn-bg:#2a2213;
+  --shadow:0 1px 2px rgba(0,0,0,.5), 0 10px 30px -22px rgba(0,0,0,1);
+}
+*{box-sizing:border-box}
+body{margin:0; background:var(--plane); color:var(--ink);
+  font:400 15px/1.5 "IBM Plex Sans", system-ui, -apple-system, sans-serif; -webkit-font-smoothing:antialiased}
+.mono{font-family:"IBM Plex Mono", ui-monospace, monospace; font-variant-numeric:tabular-nums}
+.wrap{max-width:1180px; margin:0 auto; padding:34px 22px 90px}
+.mast{display:flex; flex-wrap:wrap; gap:18px 26px; align-items:flex-end; justify-content:space-between;
+      padding-bottom:18px; border-bottom:2px solid var(--rule)}
+.eyebrow{font-family:"IBM Plex Mono",monospace; font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3)}
+h1{font-family:"Instrument Serif", Georgia, serif; font-weight:400; font-size:44px; line-height:1.02; margin:6px 0 0; letter-spacing:-.01em}
+h1 em{font-style:italic; color:var(--accent)}
+.stamp{display:flex; align-items:center; gap:9px; font-size:12px; color:var(--ink-3)}
+.stamp .dot{width:6px;height:6px;border-radius:50%;background:var(--accent)}
+.band{margin:24px 0 0; background:var(--surface); border:1px solid var(--hair); border-radius:14px;
+      box-shadow:var(--shadow); overflow:hidden; display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:var(--hair)}
+.band > div{background:var(--surface); padding:17px 20px}
+.band .hero{background:var(--brand); color:var(--brand-ink)}
+.k{font-family:"IBM Plex Mono",monospace; font-size:10.5px; letter-spacing:.13em; text-transform:uppercase; color:var(--ink-3)}
+.hero .k{color:var(--brand-ink); opacity:.72}
+.v{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums; font-weight:500; font-size:22px; margin-top:4px; letter-spacing:-.02em}
+.v small{font-size:12px; font-weight:400; color:var(--ink-3); margin-left:6px; letter-spacing:0}
+.hero .v small{color:var(--brand-ink); opacity:.7}
+section{margin-top:34px}
+.sec-h{display:flex; align-items:baseline; gap:12px; margin:0 0 14px; flex-wrap:wrap}
+.sec-h h2{font-family:"Instrument Serif",Georgia,serif; font-weight:400; font-size:26px; margin:0}
+.sec-h .note{font-size:12.5px; color:var(--ink-3)}
+.card{background:var(--surface); border:1px solid var(--hair); border-radius:14px; box-shadow:var(--shadow); padding:20px 22px}
+.callout{border-left:3px solid var(--warn); background:var(--surface); border-radius:11px; padding:15px 18px; font-size:13.5px;
+         color:var(--ink-2); line-height:1.6; box-shadow:var(--shadow); border-top:1px solid var(--hair);
+         border-right:1px solid var(--hair); border-bottom:1px solid var(--hair)}
+.callout b{color:var(--ink)}
+.pills{display:flex; flex-wrap:wrap; gap:8px 16px; margin:0 0 16px; font-size:12.5px; color:var(--ink-2)}
+.pills span{display:flex; align-items:center; gap:7px}
+.pills i{width:11px;height:11px;border-radius:3px;display:block}
+.mon{margin-bottom:26px}
+.mon h3{font-family:"Instrument Serif",Georgia,serif; font-weight:400; font-size:20px; margin:0 0 10px}
+.grid{display:grid; grid-template-columns:repeat(7,1fr); gap:1px; background:var(--hair); border:1px solid var(--hair); border-radius:10px; overflow:hidden}
+.dow{background:var(--surface-2); padding:7px 9px; font-family:"IBM Plex Mono",monospace; font-size:10px;
+     letter-spacing:.1em; text-transform:uppercase; color:var(--ink-3); text-align:center}
+.cell{background:var(--surface); min-height:92px; padding:7px 8px; display:flex; flex-direction:column; gap:5px}
+.cell.pad{background:var(--sunk)}
+.cell .d{font-family:"IBM Plex Mono",monospace; font-size:11.5px; color:var(--ink-3)}
+.cell.today{outline:2px solid var(--accent); outline-offset:-2px}
+.cell.today .d{color:var(--accent); font-weight:600}
+.chip{display:flex; align-items:center; gap:5px; font-size:11px; line-height:1.25; padding:3px 5px; border-radius:5px;
+      background:var(--surface-2); border-left:3px solid var(--ink-3); cursor:default}
+.chip.done{opacity:.62}
+.chip .f{font-family:"IBM Plex Mono",monospace; font-size:9.5px; letter-spacing:.04em; color:var(--ink-3); flex:none}
+.chip .x{overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.brief{display:grid; grid-template-columns:86px minmax(0,1fr); gap:0 16px; padding:13px 0; border-bottom:1px solid var(--hair)}
+.brief:last-child{border-bottom:0}
+.brief .dt{font-family:"IBM Plex Mono",monospace; font-size:12.5px; color:var(--ink-3); padding-top:2px}
+.brief .hd{display:flex; align-items:center; gap:9px; flex-wrap:wrap; margin-bottom:4px}
+.brief .ttl{font-weight:600; font-size:14px}
+.tag{font-family:"IBM Plex Mono",monospace; font-size:9.5px; letter-spacing:.08em; text-transform:uppercase;
+     padding:2px 7px; border-radius:20px; background:var(--brand-soft); color:var(--accent)}
+.tag.fmt{background:var(--sunk); color:var(--ink-3)}
+.brief p{margin:0; font-size:13.5px; color:var(--ink-2); line-height:1.55}
+.brief .cta{margin-top:5px; font-size:12.5px; color:var(--ink-3)}
+.brief .cta b{color:var(--ink-2); font-weight:500}
+.wk{font-family:"IBM Plex Mono",monospace; font-size:10.5px; letter-spacing:.12em; text-transform:uppercase;
+    color:var(--ink-3); margin:22px 0 2px; padding-top:14px; border-top:2px solid var(--rule)}
+.wk:first-child{border-top:0; padding-top:0; margin-top:0}
+footer{margin-top:44px; padding-top:18px; border-top:1px solid var(--hair); font-size:12px; color:var(--ink-3);
+       display:flex; justify-content:space-between; gap:14px; flex-wrap:wrap}
+@media (max-width:860px){
+  h1{font-size:32px} .band{grid-template-columns:repeat(2,1fr)} .wrap{padding:24px 15px 60px}
+  .cell{min-height:66px} .chip .x{display:none} .brief{grid-template-columns:1fr; gap:4px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="mast">
+    <div>
+      <div class="eyebrow">O2 Health Hub · @o2health_hub</div>
+      <h1>Content calendar — <em>September to October</em></h1>
+    </div>
+    <div class="stamp"><span class="dot"></span><span>Built 11 Sep 2026 · 290 followers</span></div>
+  </div>
+
+  <div class="band">
+    <div class="hero"><div class="k">Posts planned</div><div class="v" id="kPlan">—</div></div>
+    <div><div class="k">Cadence</div><div class="v" id="kCad">—</div></div>
+    <div><div class="k">Reels vs static</div><div class="v" id="kMix">—</div></div>
+    <div><div class="k">Next post</div><div class="v" id="kNext">—</div></div>
+  </div>
+
+  <section>
+    <div class="sec-h"><h2>Where the account stands</h2></div>
+    <div class="callout" id="gap"></div>
+  </section>
+
+  <section>
+    <div class="sec-h">
+      <h2>The calendar</h2>
+      <span class="note">Faded chips are already posted. Hover a chip for the brief.</span>
+    </div>
+    <div class="card">
+      <div class="pills" id="pills"></div>
+      <div id="cal"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-h"><h2>The briefs</h2><span class="note">One line of direction per post — enough to hand to a shooter or a designer.</span></div>
+    <div class="card" id="briefs"></div>
+  </section>
+
+  <footer>
+    <span>O2 Health Hub · prepared by Lenka's Academy</span>
+    <span class="mono">Posted history read 11 Sep 2026 · plan runs to 12 Oct</span>
+  </footer>
+</div>
+
+<script>
+const TODAY = "2026-09-11";
+const PILLARS = {
+  autism:{n:"Autism & child neuro", c:"#0d8098"},
+  pain  :{n:"Pain management",      c:"#7a5cc4"},
+  gut   :{n:"Endoscopy & gut",      c:"#0d7a63"},
+  metab :{n:"Diabetes & weight",    c:"#c98a12"},
+  clinic:{n:"Clinic & trust",       c:"#c2544a"}
+};
+/* what is already on the grid — read from the public profile, captions not visible */
+const POSTED = [
+  ["2026-06-30","Photo","Banner graphic"],
+  ["2026-09-01","Photo","Text graphic"], ["2026-09-01","Photo","Medicine"],
+  ["2026-09-03","Photo","Poster"],       ["2026-09-03","Photo","Poster"],
+  ["2026-09-04","Photo","Poster"],       ["2026-09-04","Video","People"],
+  ["2026-09-06","Video","People"],
+  ["2026-09-07","Photo","Sports graphic"],["2026-09-07","Video","Selfie"],
+  ["2026-09-08","Video","Child"],
+  ["2026-09-10","Photo","Text graphic"]
+];
+/* [date, pillar, format, title, brief, cta] */
+const PLAN = [
+  ["2026-09-15","autism","Reel","Three early signs parents miss","Paediatric specialist straight to camera, 30s, no music bed. Name the three signs plainly — speech, eye contact, response to name — and say what age each matters by.","Call for an assessment"],
+  ["2026-09-16","gut","Carousel","What an endoscopy is actually like","Five slides, start to finish: arrival, sedation, the ten minutes, recovery, when you go home. Kill the fear, that is the whole job.","Book a slot"],
+  ["2026-09-17","pain","Reel","Why the knee hurts most in the morning","Doctor explains stiffness on waking in under 30s. One idea only.","Call 093922 05443"],
+  ["2026-09-18","metab","Photo","What your HbA1c number means","Clean chart graphic — ranges and what each band means for you. Highly saveable, which is the point.","DM for a diabetes review"],
+  ["2026-09-19","clinic","Reel","Patient story — pain, before and after","45s, patient speaks in their own words. Written consent on file before this goes anywhere near the grid.","Book a consult"],
+
+  ["2026-09-22","autism","Reel","Speech delay or autism?","The single most-asked parent question. Explain how the two are told apart and why guessing at home wastes months.","Call for an assessment"],
+  ["2026-09-23","pain","Photo","Five red flags for back pain","Text graphic. When back pain stops being ordinary and needs a scan.","Call if any apply"],
+  ["2026-09-24","gut","Reel","Acidity every day is not normal","Doctor to camera. The line between everyday acidity and something worth scoping.","Book an endoscopy"],
+  ["2026-09-25","metab","Carousel","Why crash diets fail","Medically supervised versus do-it-yourself, four slides. Sets up the weight programme without pitching it.","DM for the programme"],
+  ["2026-09-26","clinic","Reel","Meet the doctor","60s. Credentials, approach, why this clinic exists. The post you pin to the top of the profile.","Follow for more"],
+
+  ["2026-09-29","autism","Reel","One therapy session, start to finish","Walk a real session end to end. Doubles as the facility tour — parents want to see the room before they come.","Call to visit"],
+  ["2026-09-30","metab","Photo","The weekly diabetic foot check","Instructional graphic, four steps. Practical enough to be saved and reused.","Book a check-up"],
+  ["2026-10-01","pain","Reel","A slipped disc does not always mean surgery","Directly answers the fear that stops people calling.","Call for options"],
+  ["2026-10-02","clinic","Photo","Gandhi Jayanti","Light brand post. No sell, no offer — just presence on the day.","—"],
+  ["2026-10-03","gut","Carousel","Colonoscopy after 45","Who needs one, how often, what it catches early. Aimed squarely at the 45+ audience the ads already reach.","Book a screening"],
+
+  ["2026-10-06","autism","Reel","A parent, in their own words","Testimonial, 45s. Consent on file. This is the single highest-intent post in the month — schedule it when you can answer the phone.","Call for an assessment"],
+  ["2026-10-07","pain","Photo","Three stretches for a desk job","Simple graphic, three panels. Broad reach, low intent — it feeds the top of the funnel.","Save this"],
+  ["2026-10-08","metab","Reel","What we check before any weight programme","Positions the clinic against pill-and-powder sellers. Trust post, not an offer post.","DM to start"],
+  ["2026-10-09","metab","Photo","Can diabetes be reversed?","Answer the FAQ honestly, including where the answer is no. Honesty converts better here than optimism.","Book a review"],
+  ["2026-10-10","clinic","Reel","Inside the clinic","Walkthrough, 40s. Where to park, what reception looks like, which floor. Removes the last friction before a first visit.","Visit us"]
+];
+
+const MON=["January","February","March","April","May","June","July","August","September","October","November","December"];
+const SMON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const dLbl = d => { const p=d.split("-"); return (+p[2])+" "+SMON[+p[1]-1]; };
+const esc = t => t.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/"/g,"&quot;");
+
+/* ---------- summary ---------- */
+const reels = PLAN.filter(p=>p[2]==="Reel").length;
+kPlan.innerHTML = PLAN.length + `<small>to 12 Oct</small>`;
+kCad.innerHTML  = "5<small>a week, Mon–Fri</small>";
+kMix.innerHTML  = reels + " / " + (PLAN.length-reels) + `<small>reel-led</small>`;
+const next = PLAN.find(p=>p[0] > TODAY);
+kNext.innerHTML = dLbl(next[0]) + `<small>${PILLARS[next[1]].n.split(" ")[0]}</small>`;
+
+gap.innerHTML = `The account posted <b>nothing between 30 June and 1 September</b>, then eleven posts in ten days —
+  a burst that lines up almost exactly with the ads restarting on 4 September. Bursts train the algorithm to expect
+  nothing, so this plan trades the spike for <b>five posts a week, Monday to Friday</b>, which is a rhythm one person
+  can actually hold. The mix is deliberately reel-led: static posters reach followers, reels reach strangers, and at
+  290 followers strangers are the entire opportunity.
+  <br><br>The order is not arbitrary. <b>Autism leads every week</b> because it is the cheapest real conversation the
+  ads produce — ₹113 per call that lasted 20 seconds, against ₹332 for endoscopy — so organic reach is worth most there.
+  Endoscopy and pain follow the live campaigns, and diabetes and weight get a slot each week because they sit in the
+  bio but have never been advertised.`;
+
+/* ---------- pills ---------- */
+pills.innerHTML = Object.values(PILLARS).map(p=>`<span><i style="background:${p.c}"></i>${p.n}</span>`).join("")
+  + `<span><i style="background:var(--ink-3);opacity:.5"></i>Already posted</span>`;
+
+/* ---------- calendar ---------- */
+const byDay = {};
+POSTED.forEach(([d,f,desc])=>{ (byDay[d]=byDay[d]||[]).push({done:1,f,t:desc,c:"var(--ink-3)"}); });
+PLAN.forEach(([d,p,f,t,b,cta])=>{ (byDay[d]=byDay[d]||[]).push({done:0,f,t,b,c:PILLARS[p].c,pn:PILLARS[p].n}); });
+
+function month(y,m){            /* m is 0-based */
+  const first = new Date(Date.UTC(y,m,1));
+  const days  = new Date(Date.UTC(y,m+1,0)).getUTCDate();
+  let lead = (first.getUTCDay()+6)%7;        /* Monday-first */
+  let h = `<div class="mon"><h3>${MON[m]} ${y}</h3><div class="grid">`
+        + ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"].map(d=>`<div class="dow">${d}</div>`).join("");
+  for(let i=0;i<lead;i++) h += `<div class="cell pad"></div>`;
+  for(let d=1; d<=days; d++){
+    const iso = `${y}-${String(m+1).padStart(2,"0")}-${String(d).padStart(2,"0")}`;
+    const items = byDay[iso]||[];
+    h += `<div class="cell${iso===TODAY?" today":""}"><div class="d">${d}</div>`
+      + items.map(it=>`<div class="chip${it.done?" done":""}" style="border-left-color:${it.c}"
+           title="${esc(it.done ? it.f+" — "+it.t+" (posted)" : it.pn+" · "+it.f+" — "+it.t+"\\n\\n"+it.b)}">
+           <span class="f">${it.f[0]}</span><span class="x">${esc(it.t)}</span></div>`).join("")
+      + `</div>`;
+  }
+  const tail = (7 - ((lead+days)%7)) % 7;
+  for(let i=0;i<tail;i++) h += `<div class="cell pad"></div>`;
+  return h + `</div></div>`;
+}
+cal.innerHTML = month(2026,8) + month(2026,9);
+
+/* ---------- briefs ---------- */
+let out="", seen="";
+PLAN.forEach(([d,p,f,t,b,cta])=>{
+  const dt = new Date(d+"T00:00:00Z");
+  const mon = new Date(Date.UTC(dt.getUTCFullYear(),dt.getUTCMonth(),dt.getUTCDate()-((dt.getUTCDay()+6)%7)));
+  const wk = `Week of ${mon.getUTCDate()} ${SMON[mon.getUTCMonth()]}`;
+  if(wk!==seen){ out += `<div class="wk">${wk}</div>`; seen=wk; }
+  out += `<div class="brief">
+    <div class="dt">${["Mon","Tue","Wed","Thu","Fri","Sat","Sun"][(dt.getUTCDay()+6)%7]} ${dLbl(d)}</div>
+    <div>
+      <div class="hd"><span class="ttl">${esc(t)}</span>
+        <span class="tag" style="background:${PILLARS[p].c}22;color:${PILLARS[p].c}">${PILLARS[p].n}</span>
+        <span class="tag fmt">${f}</span></div>
+      <p>${esc(b)}</p>
+      ${cta==="—"?"":`<div class="cta"><b>CTA:</b> ${esc(cta)}</div>`}
+    </div></div>`;
+});
+briefs.innerHTML = out;
+</script>
+</body>
+</html>
