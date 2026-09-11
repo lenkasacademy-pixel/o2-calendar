@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="O2 Health Hub on Instagram - organic content and performance, 1-10 September 2026.">
+<title>O₂ Health Hub on Instagram</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+:root{
+  color-scheme: light;
+  --plane:#eef2f4; --surface:#ffffff; --surface-2:#f5f9fb; --sunk:#e7eef1;
+  --ink:#0b1519; --ink-2:#4a5a61; --ink-3:#84939a;
+  --hair:#dbe4e8; --rule:#c1ced4;
+  --brand:#0a4453; --brand-ink:#ffffff; --brand-soft:#e0edf1;
+  --accent:#0d8098;
+  --warn:#8a5b00;
+  --f-image:#6b4fb8; --f-carousel:#b26a00; --f-reel:#00909f; --f-story:#7d8f96;
+  --shadow:0 1px 2px rgba(11,21,25,.05), 0 10px 30px -22px rgba(11,21,25,.5);
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  color-scheme: dark;
+  --plane:#070b0d; --surface:#101719; --surface-2:#151d20; --sunk:#0c1214;
+  --ink:#edf3f5; --ink-2:#9fadb3; --ink-3:#738187;
+  --hair:#1e2629; --rule:#30383c;
+  --brand:#6fd8ee; --brand-ink:#05161b; --brand-soft:#122328;
+  --accent:#4cc6e0;
+  --warn:#e0ab48;
+  --f-image:#8a72d8; --f-carousel:#c17e1e; --f-reel:#1c9fae; --f-story:#6b7c83;
+  --shadow:0 1px 2px rgba(0,0,0,.5), 0 10px 30px -22px rgba(0,0,0,1);
+}}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --plane:#070b0d; --surface:#101719; --surface-2:#151d20; --sunk:#0c1214;
+  --ink:#edf3f5; --ink-2:#9fadb3; --ink-3:#738187;
+  --hair:#1e2629; --rule:#30383c;
+  --brand:#6fd8ee; --brand-ink:#05161b; --brand-soft:#122328;
+  --accent:#4cc6e0;
+  --warn:#e0ab48;
+  --f-image:#8a72d8; --f-carousel:#c17e1e; --f-reel:#1c9fae; --f-story:#6b7c83;
+  --shadow:0 1px 2px rgba(0,0,0,.5), 0 10px 30px -22px rgba(0,0,0,1);
+}
+
+*{box-sizing:border-box}
+body{margin:0; background:var(--plane); color:var(--ink);
+  font:400 15px/1.55 "IBM Plex Sans", system-ui, -apple-system, sans-serif; -webkit-font-smoothing:antialiased}
+img{max-width:100%}
+.mono,.v,.val,.num,.dnum{font-family:"IBM Plex Mono", ui-monospace, monospace; font-variant-numeric:tabular-nums}
+.wrap{max-width:1180px; margin:0 auto; padding-inline:22px; padding-block:34px 80px}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent); outline-offset:2px; border-radius:3px}
+
+/* ── masthead ─────────────────────────────────────────────── */
+.mast{display:flex; flex-wrap:wrap; gap:18px 26px; align-items:flex-end; justify-content:space-between;
+      padding-bottom:18px; border-bottom:2px solid var(--rule)}
+.eyebrow{font-family:"IBM Plex Mono",monospace; font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3)}
+h1{font-family:"Instrument Serif", Georgia, serif; font-weight:400; font-size:clamp(32px,5vw,46px);
+   line-height:1.02; margin:6px 0 0; letter-spacing:-.01em; text-wrap:balance}
+h1 em{font-style:italic; color:var(--accent)}
+.mast > div:first-child{flex:1 1 440px}
+.stamp{margin-left:auto; font-family:"IBM Plex Mono",monospace; font-size:11.5px; line-height:1.8; color:var(--ink-3); text-align:right}
+.stamp b{display:block; color:var(--ink); font-weight:500; font-size:12.5px; letter-spacing:.02em}
+.stamp a{text-decoration:none; border-bottom:1px solid currentColor; padding-bottom:1px}
+.stamp a:hover{opacity:.7}
+
+/* ── count band (shared component with the planning page) ── */
+.band{margin-top:24px; display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:var(--hair);
+      border:1px solid var(--hair); border-radius:14px; overflow:hidden; box-shadow:var(--shadow)}
+.band > div{background:var(--surface); padding:17px 20px}
+.band .hero{background:var(--brand); color:var(--brand-ink)}
+.k{font-family:"IBM Plex Mono",monospace; font-size:10.5px; letter-spacing:.13em; text-transform:uppercase; color:var(--ink-3)}
+.hero .k{color:var(--brand-ink); opacity:.72}
+.v{font-weight:500; font-size:26px; margin-top:5px; letter-spacing:-.02em; line-height:1}
+.v small{font-family:"IBM Plex Sans",sans-serif; font-size:12px; font-weight:400; color:var(--ink-3); margin-left:7px; letter-spacing:0}
+.hero .v small{color:var(--brand-ink); opacity:.7}
+
+/* ── finding ──────────────────────────────────────────────── */
+.finding{margin-top:30px; display:grid; grid-template-columns:minmax(0,1.35fr) minmax(260px,.85fr); gap:30px 40px; align-items:start}
+.finding .lead{font-family:"Instrument Serif",Georgia,serif; font-size:23px; line-height:1.38; margin:0; color:var(--ink); text-wrap:pretty}
+.finding .lead b{font-style:italic; font-weight:400; color:var(--accent)}
+.finding p.sub{margin:14px 0 0; font-size:14.5px; color:var(--ink-2); line-height:1.6; max-width:62ch}
+.ledger{border-top:2px solid var(--rule)}
+.ledger .lr{display:flex; justify-content:space-between; align-items:baseline; gap:14px;
+            padding:8px 0; border-bottom:1px solid var(--hair)}
+.ledger .lr .t{font-size:13px; color:var(--ink-2)}
+.ledger .lr .t i{display:block; font-style:normal; font-size:11px; color:var(--ink-3); margin-top:1px}
+.ledger .lr .n{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums; font-size:15px; font-weight:500; color:var(--ink)}
+.ledger .lr.hi .n{color:var(--accent)}
+
+/* ── sections ─────────────────────────────────────────────── */
+section{margin-top:46px}
+.sec-h{display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; margin:0 0 14px}
+.sec-h h2{font-family:"Instrument Serif",Georgia,serif; font-weight:400; font-size:27px; margin:0; letter-spacing:-.01em}
+.sec-h .note{font-family:"IBM Plex Mono",monospace; font-size:11px; letter-spacing:.05em; color:var(--ink-3)}
+.card{background:var(--surface); border:1px solid var(--hair); border-radius:14px; box-shadow:var(--shadow); padding:20px 22px}
+
+/* ── legend ───────────────────────────────────────────────── */
+.pills{display:flex; flex-wrap:wrap; gap:8px 18px; margin:0 0 16px; font-size:12.5px; color:var(--ink-2)}
+.pills span{display:flex; align-items:center; gap:7px}
+.pills i{width:11px; height:11px; border-radius:3px; display:block}
+.pills i.rnd{border-radius:50%; width:8px; height:8px}
+
+/* ── calendar ─────────────────────────────────────────────── */
+.grid{display:grid; grid-template-columns:repeat(7,1fr); gap:1px; background:var(--hair);
+      border:1px solid var(--hair); border-radius:10px; overflow:hidden}
+.dow{background:var(--surface-2); padding:7px 9px; font-family:"IBM Plex Mono",monospace; font-size:10px;
+     letter-spacing:.1em; text-transform:uppercase; color:var(--ink-3); text-align:center}
+.cell{background:var(--surface); min-height:112px; padding:7px 8px 9px; display:flex; flex-direction:column; gap:5px}
+.cell.pad{background:var(--sunk); min-height:56px}
+.cell.out{background:var(--surface-2); min-height:56px}
+.dnum{font-size:11.5px; color:var(--ink-3)}
+.cell.live .dnum{color:var(--ink); font-weight:500}
+.chip{display:flex; align-items:center; gap:6px; font-size:11px; line-height:1.25; padding:4px 6px; border-radius:5px;
+      background:var(--surface-2); border-left:3px solid var(--fc)}
+.chip .f{font-family:"IBM Plex Mono",monospace; font-size:9.5px; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-2); flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.chip .val{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums; font-size:10.5px; color:var(--ink); flex:none}
+.st{display:flex; align-items:center; gap:4px; margin-top:auto; padding-top:2px}
+.st .d{width:6px; height:6px; border-radius:50%; background:var(--f-story)}
+.st .l{font-family:"IBM Plex Mono",monospace; font-size:9.5px; color:var(--ink-3); letter-spacing:.04em}
+.cal-list{display:none}
+
+/* ── ranked lollipops ─────────────────────────────────────── */
+.ranks{border-top:2px solid var(--rule)}
+.rk{display:grid; grid-template-columns:minmax(150px,210px) minmax(0,1fr) 58px; gap:0 14px; align-items:center;
+    padding:9px 0; border-bottom:1px solid var(--hair)}
+.rk.peak{background:linear-gradient(90deg, var(--brand-soft), transparent 78%);
+         margin-inline:-10px; padding-inline:10px; border-radius:6px}
+.rk .lab{font-size:13px; color:var(--ink); line-height:1.3}
+.rk .lab i{display:block; font-style:normal; font-family:"IBM Plex Mono",monospace; font-size:10px;
+           letter-spacing:.07em; text-transform:uppercase; color:var(--ink-3); margin-bottom:2px}
+.rk .plot{position:relative; height:16px}
+.rk .stem{position:absolute; left:0; top:7px; height:2px; background:var(--fc); opacity:.55; border-radius:1px}
+.rk .knob{position:absolute; top:2px; width:12px; height:12px; border-radius:50%; background:var(--fc);
+          box-shadow:0 0 0 2px var(--plane); transform:translateX(-6px)}
+.rk .num{text-align:right; font-size:13px; color:var(--ink-2)}
+.rk.peak .num{color:var(--ink); font-weight:500}
+.axis{display:grid; grid-template-columns:minmax(150px,210px) minmax(0,1fr) 58px; gap:0 14px; padding-top:9px}
+.axis .ticks{display:flex; justify-content:space-between; font-family:"IBM Plex Mono",monospace;
+             font-size:10px; color:var(--ink-3); letter-spacing:.04em}
+.axis .unit{font-family:"IBM Plex Mono",monospace; font-size:10px; color:var(--ink-3); text-align:right}
+
+/* ── two-up ───────────────────────────────────────────────── */
+.duo{display:grid; grid-template-columns:1fr 1fr; gap:18px; align-items:start}
+.duo h3{font-family:"Instrument Serif",Georgia,serif; font-weight:400; font-size:19px; margin:0 0 4px}
+.duo .cap{font-size:12.5px; color:var(--ink-3); margin:0 0 16px}
+.bars{display:grid; gap:13px}
+.brow{display:grid; grid-template-columns:74px minmax(0,1fr) 46px; gap:0 12px; align-items:center}
+.brow .bk{font-size:13px; color:var(--ink-2)}
+.brow .bp{position:relative; height:11px; background:var(--sunk); border-radius:2px; overflow:hidden}
+.brow .bf{position:absolute; inset:0 auto 0 0; background:var(--fc); border-radius:2px}
+.brow .num{text-align:right; font-size:12.5px; color:var(--ink-2)}
+.split{display:flex; height:22px; border-radius:4px; overflow:hidden; gap:2px; margin:2px 0 12px}
+.split span{display:block}
+.srow{display:flex; align-items:baseline; justify-content:space-between; gap:12px; padding:6px 0; border-bottom:1px solid var(--hair); font-size:13px; color:var(--ink-2)}
+.srow:last-child{border-bottom:0}
+.srow em{font-style:normal; display:flex; align-items:center; gap:8px}
+.srow i{width:9px; height:9px; border-radius:2px; display:block}
+.srow b{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums; font-weight:500; color:var(--ink)}
+.pull{border-left:3px solid var(--warn); padding:2px 0 2px 15px; margin:0 0 14px;
+      font-family:"Instrument Serif",Georgia,serif; font-size:19px; line-height:1.4; color:var(--ink)}
+.pull b{font-style:italic; font-weight:400; color:var(--warn)}
+.duo p.body{margin:0; font-size:13.5px; color:var(--ink-2); line-height:1.6}
+
+/* ── ledger table ─────────────────────────────────────────── */
+.tw{overflow-x:auto}
+table{border-collapse:collapse; width:100%; min-width:680px; font-size:13.5px}
+thead th{text-align:left; font-family:"IBM Plex Mono",monospace; font-size:10px; letter-spacing:.1em;
+         text-transform:uppercase; color:var(--ink-3); font-weight:400; padding:0 12px 8px; white-space:nowrap;
+         border-bottom:2px solid var(--rule)}
+tbody td{padding:11px 12px; border-bottom:1px solid var(--hair); color:var(--ink-2); vertical-align:baseline}
+tbody td.s{color:var(--ink)}
+th.n,td.n{text-align:right; font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums}
+tbody td.dt{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums; color:var(--ink-2); white-space:nowrap}
+tbody tr.peak td{background:var(--brand-soft)}
+.fmt{display:inline-flex; align-items:center; gap:7px; white-space:nowrap; font-size:12.5px; color:var(--ink)}
+.fmt i{width:9px; height:9px; border-radius:2px; display:block}
+tfoot td{padding:11px 12px; border-top:2px solid var(--rule); font-family:"IBM Plex Mono",monospace;
+         font-variant-numeric:tabular-nums; font-size:13px; color:var(--ink)}
+tfoot td.lbl{font-family:"IBM Plex Sans",sans-serif; color:var(--ink-3)}
+
+/* ── notes / footer ───────────────────────────────────────── */
+.notes{margin-top:46px; padding-top:18px; border-top:1px solid var(--hair);
+       display:grid; grid-template-columns:repeat(2,1fr); gap:16px 40px}
+.notes p{margin:0; font-size:12.5px; color:var(--ink-3); line-height:1.65}
+.notes b{color:var(--ink-2); font-weight:500; display:block; font-family:"IBM Plex Mono",monospace;
+         font-size:10px; letter-spacing:.1em; text-transform:uppercase; margin-bottom:4px}
+footer{margin-top:34px; padding-top:16px; border-top:1px solid var(--hair); font-size:11.5px; color:var(--ink-3);
+       display:flex; justify-content:space-between; gap:14px; flex-wrap:wrap;
+       font-family:"IBM Plex Mono",monospace}
+
+@media (max-width:900px){
+  .finding{grid-template-columns:1fr; gap:22px}
+  .band{grid-template-columns:repeat(2,1fr)}
+  .duo{grid-template-columns:1fr}
+  .notes{grid-template-columns:1fr}
+}
+@media (max-width:700px){
+  .wrap{padding-inline:16px}
+  .grid{display:none}
+  .cal-list{display:grid; gap:1px; background:var(--hair); border:1px solid var(--hair); border-radius:10px; overflow:hidden}
+  .lrow{background:var(--surface); padding:10px 12px; display:grid; grid-template-columns:56px minmax(0,1fr); gap:12px; align-items:start}
+  .lrow .ld{font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--ink-3); letter-spacing:.05em; padding-top:4px}
+  .lrow .li{display:grid; gap:5px; min-width:0}
+  .rk,.axis{grid-template-columns:minmax(0,1fr) 58px}
+  .rk .plot{grid-column:1 / -1; margin-top:4px}
+  .rk .num{grid-row:1; grid-column:2}
+  .axis .unit{display:none}
+  .axis{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:no-preference){
+  .rk .stem,.rk .knob,.brow .bf{transition:all .45s cubic-bezier(.22,.8,.3,1)}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="mast">
+    <div>
+      <div class="eyebrow">O2 Health Hub · @o2health_hub</div>
+      <h1>What went out in September — <em>and how far it went</em></h1>
+    </div>
+    <div class="stamp">
+      1 – 10 September 2026
+      <b>Organic Instagram</b>
+      Meta Business Suite · pulled 11 Sep<br>
+      <a href="./index.html">Planning calendar &rarr;</a>
+    </div>
+  </header>
+
+  <div class="band">
+    <div class="hero"><div class="k">Feed posts</div><div class="v">11<small>in 10 days</small></div></div>
+    <div><div class="k">Images</div><div class="v">7<small>6 single, 1 carousel</small></div></div>
+    <div><div class="k">Reels</div><div class="v">4<small>4, 6, 7, 9 Sep</small></div></div>
+    <div><div class="k">Stories</div><div class="v">11<small>from the 2nd on</small></div></div>
+  </div>
+
+  <div class="finding">
+    <div>
+      <p class="lead">The account posted every single day — and then <b>one Reel out of eleven posts carried the month</b>.
+        The endoscopy film on 7 September was seen 2,343 times. Everything else put together came to 1,646.</p>
+      <p class="sub">Cadence was the easy part and it held: a post a day from the 1st to the 10th, two on the 4th,
+        stories running alongside from the 2nd. What the month shows is that reach is not a reward for showing up.
+        Nine of the eleven posts landed between 45 and 321 views — roughly the size of the follower list — while the
+        one that named a symptom and a procedure was pushed to strangers by Instagram itself.</p>
+    </div>
+    <div class="ledger">
+      <div class="lr hi"><span class="t">Organic views<i>posts 3,989 · stories 382</i></span><span class="n">4,371</span></div>
+      <div class="lr"><span class="t">Accounts reached<i>organic and paid together</i></span><span class="n">12,300</span></div>
+      <div class="lr"><span class="t">Views including ads<i>12,276 of them paid</i></span><span class="n">16,656</span></div>
+      <div class="lr"><span class="t">Interactions<i>57 likes · 12 shares · 4 saves · 1 comment</i></span><span class="n">68</span></div>
+      <div class="lr"><span class="t">New follows<i>both from the 6 Sep Reel</i></span><span class="n">2</span></div>
+    </div>
+  </div>
+
+  <section>
+    <div class="sec-h">
+      <h2>The month, day by day</h2>
+      <span class="note">organic views per post</span>
+    </div>
+    <div class="pills">
+      <span><i style="background:var(--f-image)"></i>Image</span>
+      <span><i style="background:var(--f-carousel)"></i>Carousel</span>
+      <span><i style="background:var(--f-reel)"></i>Reel</span>
+      <span><i class="rnd" style="background:var(--f-story)"></i>Story</span>
+    </div>
+    <div class="card">
+      <div class="grid" id="grid"></div>
+      <div class="cal-list" id="list"></div>
+      <p style="margin:12px 0 0; font-size:11.5px; color:var(--ink-3); font-family:'IBM Plex Mono',monospace;">
+        11–30 September fall outside this reporting window.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-h">
+      <h2>What travelled</h2>
+      <span class="note">one scale · 0–2,400 organic Instagram views</span>
+    </div>
+    <div class="ranks" id="ranks"></div>
+    <div class="axis">
+      <span></span>
+      <div class="ticks"><span>0</span><span>600</span><span>1,200</span><span>1,800</span><span>2,400</span></div>
+      <span class="unit">views</span>
+    </div>
+  </section>
+
+  <section>
+    <div class="duo">
+      <div class="card">
+        <h3>Who watched the endoscopy Reel</h3>
+        <p class="cap">Share of watch time by how the viewer found it</p>
+        <div class="split">
+          <span style="flex:77.2; background:var(--accent)"></span>
+          <span style="flex:22.8; background:var(--f-image)"></span>
+        </div>
+        <div class="srow"><em><i style="background:var(--accent)"></i>Recommendations</em><b>77.2%</b></div>
+        <div class="srow"><em><i style="background:var(--f-image)"></i>Followers</em><b>22.8%</b></div>
+        <div class="srow"><em><i style="background:var(--sunk)"></i>Shares · Paid</em><b>0%</b></div>
+        <p class="body" style="margin-top:14px">Three quarters of it was Instagram handing the film to people who
+          had never heard of the clinic. That is the only distribution that grows a 290-follower account, and it is
+          the thing to try to reproduce.</p>
+      </div>
+      <div class="card">
+        <h3>Average views by format</h3>
+        <p class="cap">Organic Instagram, eleven posts</p>
+        <div class="bars" id="bars"></div>
+        <p class="pull" style="margin-top:20px">Take that one Reel out and Reels averaged <b>189</b> —
+          level with images at <b>146</b>.</p>
+        <p class="body">Format is not the lever. Of the four Reels, three performed like the photos did. The
+          difference was the brief: a named symptom, a named procedure, and a reason not to wait.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-h">
+      <h2>Every post</h2>
+      <span class="note">Instagram share only · crossposted to Facebook</span>
+    </div>
+    <div class="tw">
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th><th>Format</th><th>Subject</th>
+            <th class="n">Views</th><th class="n">Likes</th><th class="n">Shares</th><th class="n">Saves</th><th class="n">Comments</th>
+          </tr>
+        </thead>
+        <tbody id="tb"></tbody>
+        <tfoot>
+          <tr><td class="lbl" colspan="3">Eleven posts, 1–10 September</td>
+              <td class="n">3,989</td><td class="n">57</td><td class="n">12</td><td class="n">4</td><td class="n">1</td></tr>
+        </tfoot>
+      </table>
+    </div>
+  </section>
+
+  <div class="notes">
+    <p><b>Views, not reach</b>Meta retired the reach metric for individual posts published after 31 July 2025 and
+      replaced it with views and viewers. Per-post figures here are Instagram views. Account-level reach — 12,300 — is
+      still reported and is the only place that word is used.</p>
+    <p><b>Instagram only</b>Every post also went to the Facebook page. The figures above are the Instagram share,
+      taken from the platform split on each post. Facebook added a further 793 views across the eleven.</p>
+    <p><b>Organic, unless stated</b>The calendar, the ranking and the table are organic performance. Paid promotion
+      added 12,276 views over the same window and is counted separately.</p>
+    <p><b>The window</b>Meta reports this period in Pacific time, so month-to-date runs to 10 September. Nothing had
+      been published on the 11th when these numbers were pulled.</p>
+  </div>
+
+  <footer>
+    <span>O2 Health Hub · prepared by Lenka's Academy</span>
+    <span>Source: Meta Business Suite · 11 Sep 2026</span>
+  </footer>
+</div>
+
+<script>
+/* [day, format, subject, views, likes, shares, saves, comments, time] */
+const POSTS = [
+  [1,  'image',    'Viral fever — when not to self-medicate',      165,  5, 1, 0, 0, ''],
+  [2,  'image',    'Headache or migraine? Know the difference',    180,  2, 1, 0, 0, ''],
+  [3,  'carousel', 'O₂ Guardian — elder care for NRI families',    202,  4, 2, 0, 0, ''],
+  [4,  'image',    'Clinic creative, no caption',                  193,  5, 2, 0, 0, '07:34'],
+  [4,  'reel',     'O₂ Guardian — staying informed from abroad',   121,  6, 0, 0, 1, '22:15'],
+  [5,  'image',    'Teachers’ Day greeting',                       144,  2, 2, 0, 0, ''],
+  [6,  'reel',     'O₂ Guardian — a local care routine',           321,  4, 0, 2, 0, ''],
+  [7,  'reel',     'Upper GI endoscopy — acidity and reflux',     2343, 21, 1, 2, 0, ''],
+  [8,  'image',    'World Physiotherapy Day',                      151,  3, 2, 0, 0, ''],
+  [9,  'reel',     'Child development, autism and speech therapy', 124,  3, 0, 0, 0, ''],
+  [10, 'image',    'Pain management — back, neck and joints',       45,  2, 1, 0, 0, '']
+];
+const STORIES = {2:[53], 3:[50], 4:[41,37,34], 5:[26], 6:[29], 7:[40], 8:[26], 9:[25], 10:[21]};
+
+const NAME = {image:'Image', carousel:'Carousel', reel:'Reel'};
+const COL  = {image:'var(--f-image)', carousel:'var(--f-carousel)', reel:'var(--f-reel)'};
+const DOW  = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+const nf   = n => n.toLocaleString('en-IN');
+const esc  = t => String(t).replace(/&/g,'&amp;').replace(/</g,'&lt;');
+const P    = POSTS.map(([d,t,s,v,l,sh,sv,c,tm]) => ({d,t,s,v,l,sh,sv,c,tm}));
+const onDay = d => P.filter(p => p.d === d);
+const dowOf = d => (new Date(Date.UTC(2026,8,d)).getUTCDay() + 6) % 7;   /* Monday-first */
+
+/* ── calendar ─────────────────────────────────────────────── */
+let g = DOW.map(d => '<div class="dow">' + d + '</div>').join('');
+for (let i = 0; i < dowOf(1); i++) g += '<div class="cell pad"></div>';
+for (let day = 1; day <= 30; day++) {
+  const inWindow = day <= 10, ps = onDay(day), st = STORIES[day] || [];
+  let c = '<span class="dnum">' + String(day).padStart(2,'0') + '</span>';
+  c += ps.map(p => '<span class="chip" style="--fc:' + COL[p.t] + '"><span class="f">' + NAME[p.t] +
+       '</span><span class="val">' + nf(p.v) + '</span></span>').join('');
+  if (st.length) c += '<span class="st">' + st.map(() => '<span class="d"></span>').join('') +
+       '<span class="l">' + st.length + (st.length > 1 ? ' stories' : ' story') + '</span></span>';
+  g += '<div class="cell ' + (inWindow ? 'live' : 'out') + '">' + c + '</div>';
+}
+for (let i = 0, t = (7 - ((dowOf(1) + 30) % 7)) % 7; i < t; i++) g += '<div class="cell pad"></div>';
+document.getElementById('grid').innerHTML = g;
+
+let li = '';
+for (let day = 1; day <= 10; day++) {
+  const st = STORIES[day] || [];
+  let items = onDay(day).map(p => '<span class="chip" style="--fc:' + COL[p.t] + '"><span class="f">' +
+    NAME[p.t] + ' · ' + esc(p.s) + '</span><span class="val">' + nf(p.v) + '</span></span>').join('');
+  if (st.length) items += '<span class="st">' + st.map(() => '<span class="d"></span>').join('') +
+    '<span class="l">' + st.length + (st.length > 1 ? ' stories · ' : ' story · ') +
+    nf(st.reduce((a,b) => a + b, 0)) + ' views</span></span>';
+  li += '<div class="lrow"><span class="ld">' + DOW[dowOf(day)] + ' ' + String(day).padStart(2,'0') +
+        '</span><span class="li">' + items + '</span></div>';
+}
+document.getElementById('list').innerHTML = li;
+
+/* ── ranked lollipops, one linear scale ───────────────────── */
+const MAX = 2400;
+document.getElementById('ranks').innerHTML = P.map(p => {
+  const w = (p.v / MAX * 100);
+  return '<div class="rk' + (p.v === 2343 ? ' peak' : '') + '" style="--fc:' + COL[p.t] + '">' +
+    '<span class="lab"><i>' + String(p.d).padStart(2,'0') + ' Sep · ' + NAME[p.t] + '</i>' + esc(p.s) + '</span>' +
+    '<span class="plot"><span class="stem" style="width:' + w.toFixed(2) + '%"></span>' +
+    '<span class="knob" style="left:' + w.toFixed(2) + '%"></span></span>' +
+    '<span class="num">' + nf(p.v) + '</span></div>';
+}).join('');
+
+/* ── average by format ────────────────────────────────────── */
+const avg = t => { const g = P.filter(p => p.t === t);
+  return Math.round(g.reduce((a,b) => a + b.v, 0) / g.length); };
+const CMP = [['Reels','reel'], ['Carousel','carousel'], ['Images','image']].map(([k,t]) => ({k, t, v:avg(t)}));
+const cmax = Math.max(...CMP.map(c => c.v));
+document.getElementById('bars').innerHTML = CMP.map(c =>
+  '<div class="brow" style="--fc:' + COL[c.t] + '"><span class="bk">' + c.k + '</span>' +
+  '<span class="bp"><span class="bf" style="width:' + (c.v / cmax * 100).toFixed(1) + '%"></span></span>' +
+  '<span class="num">' + nf(c.v) + '</span></div>').join('');
+
+/* ── ledger ───────────────────────────────────────────────── */
+document.getElementById('tb').innerHTML = P.map(p =>
+  '<tr' + (p.v === 2343 ? ' class="peak"' : '') + '>' +
+  '<td class="dt">' + String(p.d).padStart(2,'0') + ' Sep' +
+    (p.tm ? ' <span style="color:var(--ink-3)">' + p.tm + '</span>' : '') + '</td>' +
+  '<td><span class="fmt"><i style="background:' + COL[p.t] + '"></i>' + NAME[p.t] + '</span></td>' +
+  '<td class="s">' + esc(p.s) + '</td>' +
+  '<td class="n">' + nf(p.v) + '</td><td class="n">' + p.l + '</td><td class="n">' + p.sh +
+  '</td><td class="n">' + p.sv + '</td><td class="n">' + p.c + '</td></tr>').join('');
+</script>
+
+</body>
+</html>
